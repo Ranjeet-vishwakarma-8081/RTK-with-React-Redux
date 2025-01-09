@@ -4,7 +4,7 @@ const initialState = {
   todos: [{ id: nanoid(), text: "Learn React-Toolkit By the end of the Day" }],
 };
 
-export const todoSlice = createSlice({
+const todoSlice = createSlice({
   name: "todo",
   initialState,
   reducers: {
